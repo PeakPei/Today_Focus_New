@@ -21,5 +21,5 @@ Today_Focus_New新闻客户端框架，类似今日头条
                    
                    
    界面——个人中心
-        
-  ![image](https://github.com/feibaichen/Today_Focus_New/blob/master/4.jpg) 
+   
+  ![image](https://github.com/feibaichen/Today_Focus_New/blob/master/4.jpg) 
