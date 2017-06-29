@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="500" id="KGk-i7-Jjw" customClass="Chat_pic_TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="500"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="500"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" maximumZoomScale="5" translatesAutoresizingMaskIntoConstraints="NO" id="zQT-Bb-vJc">
+                        <rect key="frame" x="0.0" y="0.0" width="372" height="484"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </scrollView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="明星写真：刘雨欣，美呆了整个世界" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZ1-Dq-S05">
+                        <rect key="frame" x="28" y="10" width="316" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="69" id="iSL-rk-Pft"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="这是一组明星刘雨欣的写照照片，画面十分唯美，青春气息十足，十分抢镜头。喜欢的可以收藏观看，后期持续更新，欢迎光顾！" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fw9-dl-5J0" userLabel="short_title_Label">
+                        <rect key="frame" x="10" y="398" width="352" height="60"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="kiS-qJ-Wq7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="fw9-dl-5J0" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="0TI-ag-B6b"/>
+                    <constraint firstAttribute="trailing" secondItem="zQT-Bb-vJc" secondAttribute="trailing" id="2u8-vB-GTR"/>
+                    <constraint firstAttribute="bottom" secondItem="zQT-Bb-vJc" secondAttribute="bottom" constant="15.5" id="3Cj-AG-G81"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="7lF-2d-h8o"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BWR-lq-Isp"/>
+                    <constraint firstAttribute="trailing" secondItem="zQT-Bb-vJc" secondAttribute="trailing" id="F0f-q3-fOK"/>
+                    <constraint firstAttribute="trailing" secondItem="zQT-Bb-vJc" secondAttribute="trailing" id="JoZ-Vg-M85"/>
+                    <constraint firstItem="LZ1-Dq-S05" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RQz-NS-Hgc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="LZ1-Dq-S05" secondAttribute="trailing" constant="20" id="UdW-DT-QIa"/>
+                    <constraint firstItem="LZ1-Dq-S05" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="VOU-2C-qax"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="YrJ-S1-EVB"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="a1G-ha-GI5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="fw9-dl-5J0" secondAttribute="bottom" constant="34" id="lDf-F4-3wx"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="mfx-IY-An6"/>
+                    <constraint firstAttribute="trailing" secondItem="fw9-dl-5J0" secondAttribute="trailing" constant="10" id="rS4-Ng-f9R"/>
+                    <constraint firstAttribute="trailing" secondItem="zQT-Bb-vJc" secondAttribute="trailing" id="rXD-L5-tof"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ufW-0Z-aZZ"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="xUF-DG-OqX"/>
+                    <constraint firstItem="zQT-Bb-vJc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="ydt-tp-Quv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+            <connections>
+                <outlet property="pic_short_title" destination="fw9-dl-5J0" id="zkN-2O-4y0"/>
+                <outlet property="pic_title" destination="LZ1-Dq-S05" id="DTC-sv-UHe"/>
+                <outlet property="scroll_image" destination="zQT-Bb-vJc" id="63C-hX-GpI"/>
+            </connections>
+            <point key="canvasLocation" x="30" y="57"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="195" id="KGk-i7-Jjw" customClass="Video_TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="290" height="195"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="290" height="195"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="haS-WU-hN2">
+                        <rect key="frame" x="0.0" y="154" width="290" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="j8n-Lj-YLq"/>
+                        </constraints>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BG1-PR-WXs">
+                        <rect key="frame" x="0.0" y="0.0" width="290" height="154"/>
+                        <color key="tintColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="u5a-gO-x6n" userLabel="Head Icon View">
+                        <rect key="frame" x="18" y="167" width="19" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="19" id="1YS-id-UQq"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="1万次" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="amE-7b-Dz2">
+                        <rect key="frame" x="146" y="170" width="23" height="11"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Clu-Mn-Tb3" userLabel="Play Time">
+                        <rect key="frame" x="117" y="167" width="22" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="22" id="PxM-GQ-idu"/>
+                            <constraint firstAttribute="height" constant="17" id="U8S-8z-5cL"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="15" id="YxS-VV-hXd"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ag7-WI-7Nr" userLabel="Share Image View">
+                        <rect key="frame" x="248" y="168" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="RVs-E3-bvt"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="娱乐视频" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wxE-0q-Gq5">
+                        <rect key="frame" x="46" y="171" width="63" height="10"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="AWk-J5-Qm9">
+                        <rect key="frame" x="201" y="168" width="16" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="16" id="UFV-hA-SbU"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Sgk-BS-9gO">
+                        <rect key="frame" x="112" y="44" width="66" height="66"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="66" id="ueT-Y7-yai"/>
+                            <constraint firstAttribute="height" constant="66" id="yEi-3G-ObS"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Sgk-BS-9gO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-20.5" id="2G5-V9-O2Z"/>
+                    <constraint firstAttribute="bottom" secondItem="haS-WU-hN2" secondAttribute="bottom" id="2UM-V8-tYD"/>
+                    <constraint firstItem="u5a-gO-x6n" firstAttribute="top" secondItem="Clu-Mn-Tb3" secondAttribute="top" id="5og-bG-JOI"/>
+                    <constraint firstItem="haS-WU-hN2" firstAttribute="top" secondItem="BG1-PR-WXs" secondAttribute="bottom" id="88E-bn-m50"/>
+                    <constraint firstItem="AWk-J5-Qm9" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="Ata-5p-XIk"/>
+                    <constraint firstItem="AWk-J5-Qm9" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="Bg6-85-5N4"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="top" secondItem="BG1-PR-WXs" secondAttribute="bottom" constant="14" id="DTH-XF-72S"/>
+                    <constraint firstItem="haS-WU-hN2" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="DiQ-Bn-Av0"/>
+                    <constraint firstAttribute="trailing" secondItem="BG1-PR-WXs" secondAttribute="trailing" id="EWU-XH-uF2"/>
+                    <constraint firstAttribute="trailing" secondItem="ag7-WI-7Nr" secondAttribute="trailing" constant="26" id="Ifw-1F-5JD"/>
+                    <constraint firstItem="wxE-0q-Gq5" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="OOl-4v-UBd"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="P5V-Pa-4d0"/>
+                    <constraint firstItem="u5a-gO-x6n" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="PrW-gz-IoM"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="ag7-WI-7Nr" secondAttribute="bottom" constant="2.5" id="SvV-EJ-G5M"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="top" secondItem="AWk-J5-Qm9" secondAttribute="top" id="a4S-0p-fz3"/>
+                    <constraint firstItem="BG1-PR-WXs" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="bon-Al-Vfq"/>
+                    <constraint firstItem="BG1-PR-WXs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="dLh-As-IrL"/>
+                    <constraint firstItem="Sgk-BS-9gO" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="djI-gL-fia"/>
+                    <constraint firstItem="AWk-J5-Qm9" firstAttribute="leading" secondItem="amE-7b-Dz2" secondAttribute="trailing" constant="32" id="fdJ-Ex-ddv"/>
+                    <constraint firstItem="amE-7b-Dz2" firstAttribute="leading" secondItem="Clu-Mn-Tb3" secondAttribute="trailing" constant="7" id="hYe-GW-pvd"/>
+                    <constraint firstItem="Clu-Mn-Tb3" firstAttribute="leading" secondItem="wxE-0q-Gq5" secondAttribute="trailing" constant="8" id="l30-yZ-CSe"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="leading" secondItem="AWk-J5-Qm9" secondAttribute="trailing" constant="31" id="mD9-bY-dSf"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="nKK-fQ-IXR"/>
+                    <constraint firstItem="amE-7b-Dz2" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="njJ-Wc-YWe"/>
+                    <constraint firstItem="Clu-Mn-Tb3" firstAttribute="centerY" secondItem="u5a-gO-x6n" secondAttribute="centerY" id="pjq-tP-DFA"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="bottom" secondItem="Clu-Mn-Tb3" secondAttribute="bottom" id="v5j-Ru-fBv"/>
+                    <constraint firstItem="haS-WU-hN2" firstAttribute="top" secondItem="BG1-PR-WXs" secondAttribute="bottom" id="vPP-vR-tqa"/>
+                    <constraint firstAttribute="trailing" secondItem="haS-WU-hN2" secondAttribute="trailing" id="vYQ-Gc-AdX"/>
+                    <constraint firstItem="wxE-0q-Gq5" firstAttribute="leading" secondItem="u5a-gO-x6n" secondAttribute="trailing" constant="9" id="xza-8O-acQ"/>
+                    <constraint firstItem="ag7-WI-7Nr" firstAttribute="leading" secondItem="AWk-J5-Qm9" secondAttribute="trailing" constant="31" id="zI8-vf-Ikb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="play_time_count" destination="Clu-Mn-Tb3" id="QYP-5N-7ja"/>
+                <outlet property="play_time_count_num" destination="amE-7b-Dz2" id="hMe-lk-uLc"/>
+                <outlet property="video_comment" destination="AWk-J5-Qm9" id="5c6-94-0Rm"/>
+                <outlet property="video_head_icon" destination="u5a-gO-x6n" id="TLC-j2-boA"/>
+                <outlet property="video_head_icon_name" destination="wxE-0q-Gq5" id="w9J-2P-2l1"/>
+                <outlet property="video_image_shortcut" destination="BG1-PR-WXs" id="f2e-47-Abc"/>
+                <outlet property="video_play_icon" destination="Sgk-BS-9gO" id="XLJ-dN-lXz"/>
+                <outlet property="video_share" destination="ag7-WI-7Nr" id="Fb6-ap-c7g"/>
+            </connections>
+            <point key="canvasLocation" x="62" y="147.5"/>
+        </tableViewCell>
+    </objects>
+</document>
