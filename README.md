@@ -1,4 +1,4 @@
-# Tutorial
+# Today_Focus_New。The most common news client, news list page, news video, star pictures, personal center management, completed the entire basic framework, can be followed by their own free to add and modify新闻客户端框架，类似今日头条
 
 Today_Focus_New新闻客户端框架，类似今日头条
    
